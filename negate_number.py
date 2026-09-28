@@ -7,10 +7,10 @@ while True:
         print(f"\n{number - (number*2)}")
     else:
         print(f"\n{number}")
-    r_again = (
+    run_again = (
         input("Do you want to run the program again?(yes or no) ").strip()).upper()
-    if r_again == "YES":
+    if run_again == "YES":
         print("Welcome\n")
     else:
         break
-print("Thanks for used.")
+print("Thanks for using.")
