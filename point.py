@@ -77,26 +77,3 @@ class Point:
 
     def __pow__(self, other):
         return Point(self.x ** other.x, self.z ** other.z, self.y ** other.y)
-
-
-point = Point(1, 50, 8)
-print(point.coordinates)
-print(point)
-
-point.coordinates = 5, 4
-print(point.coordinates)
-print("point: ", point)
-
-another = Point.create()
-print(point.coordinates)
-print(type(another))
-print("another: ", another)
-
-print(point == another)
-print(another + point)
-print(another - point)
-print(another / point)
-print(another // point)
-print(another * point)
-print(another ** point)
-print(another % point)

@@ -2,8 +2,8 @@ def average_of_grades():
 	number_of_lessons = int(input("Enter the number of lessons:\n"))
 	grades = []
 	def questions_for_grades():
-		grades_qoestions = int(input("What is your grade?\n"))
-		grades.append(grades_qoestions)
+		grades_questions = int(input("What is your grade?\n"))
+		grades.append(grades_questions)
 	for repeat_of_questions_for_grades in range(number_of_lessons):
 		questions_for_grades()
 	print ("\n",grades)
